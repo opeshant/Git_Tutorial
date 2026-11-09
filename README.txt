@@ -29,3 +29,13 @@ and creates a verions out of it
 
 'git commit ' -> registers statging changes to a commit
 
+
+'git log' -> list down all the commits of the repositary if you want to exit out of git log prompt 'q'
+
+
+'git restore <file_name>' -> deleted all the which is in the staging area but not yet commited
+this can be useful if we did some dirty peice of code and no more wanted 
+// instead of deleting line line we can do this restroe 
+// restores to last version of it 
+
+
