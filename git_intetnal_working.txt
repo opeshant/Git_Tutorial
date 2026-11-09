@@ -113,3 +113,12 @@ to manage directory git has somehting called tree
 
 if u do git add .
 tree under tree and blobs which are themselves connected to other tree or bolb
+
+
+commit -> snapshot 
+commit obejct 
+-> authot , commit message , data and time ,commiter , referce to the trev
+
+but still the timestamps will be different 
+two commit cannot have a SHA1 hash 
+commit id will be always different 
