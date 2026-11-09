@@ -102,3 +102,16 @@ the name of the remote is used to establish communicatio between repos
 git push origin main 
 // main is the bappp of all branches
 
+
+
+
+git add <file1> <file2> <file3>
+// add the following files from staging area from wokring area 
+
+
+
+
+git add . 
+this adds all the files in staging area from working area 
+
+
