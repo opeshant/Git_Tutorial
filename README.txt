@@ -41,6 +41,7 @@ and creates a verions out of it
 'git log' -> list down all the commits of the repositary if you want to exit out of git log prompt 'q'
 
 
+
 'git restore <file_name>' -> deleted all the which is in the staging area but not yet commited
 this can be useful if we did some dirty peice of code and no more wanted 
 // instead of deleting line line we can do this restroe 
@@ -69,6 +70,8 @@ if we just want changes to be moved in wokring area or staging area then we do g
 // git commit id uniquely identifies the commit 
 9632527db9f55336b53405ff3923465a78a2cb2d
 f4f7fd15d78eb5148d5d1145e64054ca9cd16f3e
+
+
 
 // if we want to avoid opening a text editor like vimeditor to commit messgage we can the following command 
 
@@ -104,10 +107,8 @@ git push origin main
 
 
 
-
 git add <file1> <file2> <file3>
 // add the following files from staging area from wokring area 
-
 
 
 
@@ -118,5 +119,17 @@ this adds all the files in staging area from working area
 
 git pull <remote name> <branch name> : downalod latest changes from the branch of the mentinoned remote
 
+
+
+there is reccommed to do 
+
+ -> make changes 
+ -> git add <file>
+ -> git commit 
+ -> git pull
+ -> git push 
+
+
+ // merge confilct ->>> not understand see again
 
 
