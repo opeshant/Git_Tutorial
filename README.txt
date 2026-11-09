@@ -74,3 +74,17 @@ f4f7fd15d78eb5148d5d1145e64054ca9cd16f3e
 
 
 
+git remote add name <link/url>
+here the name can be anyhting 
+usualyy called origin 
+origin -> name of the remote 
+which connects the local repository to github repository 
+
+
+
+// now if we wan to upload chnages to local -> github reposirtary
+// we can use git push 
+
+git push origin main 
+// main is the bappp of all branches
+
