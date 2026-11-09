@@ -64,3 +64,23 @@ Tag	Stores annotated tag information
 
 
 It then compresses this representation using zlib.
+
+
+
+.git folder -> objects(folder) ->
+
+if u do git add README.md 
+-> create a hash -> bolb 
+
+now -> folder name inside objects(first two charcters of hash)
+inside this folder -> (38 charctere name file) (bolb file)
+content of file ->  bolb object 
+
+
+if we directly of cat q43tfrwg4hergsre
+// we will get a gibrish 
+
+// git provide called git catfile -p 2 charcter + 38 charcters
+// now can display what is inside the README.md
+
+
