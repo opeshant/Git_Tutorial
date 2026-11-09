@@ -82,8 +82,22 @@ which connects the local repository to github repository
 
 
 
+git  remote rm <name of remote > : this command deletes a remote connection
+
+
+
+git remote rename <oldname> <newname> : this command renames the connection 
+
+
+
+the name of the remote is used to establish communicatio between repos 
+
+
+
 // now if we wan to upload chnages to local -> github reposirtary
 // we can use git push 
+
+
 
 git push origin main 
 // main is the bappp of all branches
