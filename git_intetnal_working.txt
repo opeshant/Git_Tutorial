@@ -45,5 +45,22 @@ tree <folder_name> imagine in a tree like manner rather than ls just showing
 to intall -> brew install tree 
 
 
+echo 'string' -> just something print in terminal 
 
 
+hash is 40 digit 
+first 2 digit is used to make a folder 
+inside that folder there is file stored which is namely remaining 38 digit 
+
+value -> the file has the blob object which is the binary object 
+The file contains a compressed Git object, not necessarily a blob.
+
+Git has four main object types:
+Object	Purpose
+Blob	Stores file content
+Tree	Stores directory structure
+Commit	Stores commit information
+Tag	Stores annotated tag information
+
+
+It then compresses this representation using zlib.
