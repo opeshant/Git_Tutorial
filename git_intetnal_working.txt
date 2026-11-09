@@ -1,19 +1,31 @@
 
 how internally git works 
 
+
+
 hashing -> (graph /tree)data structure
+
+
 
 git is like a key -> value store 
 
+
+
 key -> hash of the data 
 value -> actual data 
+
+
 
 git uses a cryptographic hash function -> SHA1 
 for a given data it outputs 40 digit hexadecimal number 
 the hash value is always same for same data 
 commit id -> was the result of hash fucntion 
 
+
+
 once hash is preapred -> git compress the data in a block and stores some metadata about data 
+
+
 
 ********************
   ||blob || <size>||
@@ -22,9 +34,15 @@ once hash is preapred -> git compress the data in a block and stores some metada
   || content      ||
 ********************
 
+
+
 store in form of a big lagre binary object 
 and all of this is stored in .git folder
 
+
+
+tree <folder_name> imagine in a tree like manner rather than ls just showing 
+to intall -> brew install tree 
 
 
 
