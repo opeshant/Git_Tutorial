@@ -84,3 +84,32 @@ if we directly of cat q43tfrwg4hergsre
 // now can display what is inside the README.md
 
 
+
+
+just ur bolb object is not sufficient 
+
+git use somehting called as tree (directed tree or graph)
+it contains pointers using the hashes to store logs 
+also can store tree
+also contain metadata -> type of pointer(tree , bolb) -> directory name / file name -> mode 
+
+
+src -> index.js 
+index.js(outside src)
+
+**********************
+ **tree    <size>**
+ **delimitor*******
+ ** bolb 
+ ** tree (these are the pointer to another bolb or tree)
+*******************
+
+a lot a tree object points to other tree object and then they can point to bolb or tree object 
+all of these are directed tree 
+
+
+to manage directory git has somehting called tree
+
+
+if u do git add .
+tree under tree and blobs which are themselves connected to other tree or bolb
