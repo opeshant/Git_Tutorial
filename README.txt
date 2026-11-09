@@ -39,3 +39,19 @@ this can be useful if we did some dirty peice of code and no more wanted
 // restores to last version of it 
 
 
+'git restore --staged <file_name> -> it removes file from changes from staggin area to working area
+this only works if changes are in your paging area 
+
+
+
+difference between git rm and git restore 
+
+
+
+// green bar in vs code means chnages are in wokring area 
+// not showing green bar changes are in staging area 
+
+
+
+'git rm --cached <file_name> ' -> if we want to whole file to move back to untracked state then do git rm 
+if we just want changes to be moved in wokring area or staging area then we do git restore 
