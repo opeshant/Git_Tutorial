@@ -115,3 +115,8 @@ git add .
 this adds all the files in staging area from working area 
 
 
+
+git pull <remote name> <branch name> : downalod latest changes from the branch of the mentinoned remote
+
+
+
