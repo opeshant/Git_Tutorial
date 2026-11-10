@@ -122,3 +122,11 @@ commit obejct
 but still the timestamps will be different 
 two commit cannot have a SHA1 hash 
 commit id will be always different 
+
+
+
+// wheever u do a code change and then push a new hashes will be created 
+
+
+git has fucntionallity -> if two files has same code chnages -> git stores it in same object rather than making two files 
+
